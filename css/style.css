@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
-
 :root {
     --yellow: #e6a800;
 }
@@ -180,12 +179,11 @@ header .navbar ul li a:hover {
 }
 
 .home h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     color: #fff;
     overflow: hidden;
     border-right: 0.15em solid transparent;
     white-space: nowrap;
-    margin-top: 20px;
     animation: typing 4s steps(40, end), blink-caret step-end 5s;
     -webkit-animation: typing 4s steps(40, end), blink-caret step-end 5s;
 }
@@ -384,6 +382,11 @@ textarea {
     resize: none;
 }
 
+.contact form input:focus,
+textarea:focus {
+    border: 0.2px solid var(--yellow);
+}
+
 .contact .row .content .title {
     text-transform: uppercase;
     color: #fff;
@@ -478,7 +481,6 @@ textarea {
     html {
         font-size: 55%;
     }
-
     .home {
         padding: 1rem 4rem;
     }
@@ -488,15 +490,12 @@ textarea {
     header {
         left: -120%;
     }
-
     #menu {
         display: block;
     }
-
     header.toggle {
         left: 0%;
     }
-
     body {
         padding: 0;
     }
@@ -506,7 +505,6 @@ textarea {
     html {
         font-size: 50%;
     }
-
     .home h1 {
         font-size: 3rem;
     }
@@ -516,19 +514,15 @@ textarea {
     header {
         width: 100vw;
     }
-
     .heading {
         margin: 0 3rem;
     }
-
     .about .row .counter .box {
         width: 100%;
     }
-
     .portfolio .box-container .box {
         width: 100%;
     }
-
     .contact .row form {
         margin: 3rem 0;
     }
