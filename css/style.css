@@ -272,6 +272,11 @@ header .navbar ul li a:hover {
     color: var(--yellow);
 }
 
+.tailwind {
+    margin-bottom: 1.3rem;
+    width: 100%;
+}
+
 .counter .box h3,
 .skills .box h3 {
     font-size: 2rem;
