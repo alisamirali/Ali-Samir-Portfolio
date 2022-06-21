@@ -251,7 +251,7 @@ header .navbar ul li a:hover {
     background: #222;
     text-align: center;
     padding: 2rem;
-    margin: 2rem;
+    margin: 1rem 2rem;
 }
 
 .counter .box span {
@@ -261,7 +261,7 @@ header .navbar ul li a:hover {
 
 .counter .box i,
 .skills .box i {
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: var(--yellow);
     margin-bottom: 0.8rem;
 }
