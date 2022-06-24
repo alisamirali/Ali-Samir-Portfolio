@@ -320,15 +320,13 @@ header .navbar ul li a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    /* border: 1px solid #e6a800; */
 }
 
 .portfolio .box-container .box img {
     height: 100%;
-    object-fit: contain;
+    border-radius: 0.5rem;
+    object-fit: cover;
 }
 
 .portfolio .box-container .box:hover img {
@@ -463,12 +461,12 @@ textarea:focus {
 #to-top {
     width: 4rem;
     height: 4rem;
-    background-color: transparent;
+    background: transparent;
     color: white;
     cursor: pointer;
     position: fixed;
     bottom: 5rem;
-    right: 5rem;
+    right: 3rem;
     display: none;
 }
 
@@ -528,6 +526,10 @@ textarea:focus {
     }
     .portfolio .box-container .box {
         width: 100%;
+    }
+    .portfolio .box-container .box img {
+        width: 100%;
+        object-fit: contain;
     }
     .contact .row form {
         margin: 3rem 0;
