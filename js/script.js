@@ -1,3 +1,12 @@
+/* Loader */
+onload = () => {
+    const load = document.getElementById("loader");
+
+    setTimeout(() => {
+        load.style.display = "none";
+    }, 2000);
+};
+
 $(document).ready(function() {
     $("#menu").click(function() {
         $(this).toggleClass("fa-times");

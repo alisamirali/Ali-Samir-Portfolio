@@ -535,3 +535,22 @@ textarea:focus {
         margin: 3rem 0;
     }
 }
+
+
+/* Load */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    z-index: 1000;
+}
+
+.loader__gif {
+    width: 210px;
+}
